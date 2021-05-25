@@ -1,5 +1,6 @@
 body {
     min-width: 960px;
+    min-height: 100vh;
     margin: 0;
     background-color: #101010;
     font-family: 'Montserrat', sans-serif;
@@ -11,8 +12,10 @@ body {
 }
 #nav {
     height: 70px;
+    margin-bottom: 20px;
 }
 #logo {
+    z-index: 10;
     position: absolute;
     height: 150px;
     background-color: #2e2e2e;
