@@ -71,17 +71,90 @@ body {
     margin-bottom: 20px;
 }
 #shareGraph {
-    height: 200px;
+    height: 300px;
     background-color: navy;
+}
+#shareGraph > img {
+    width: 100%;
+    height: 100%;
 }
 #sharePrice {
-    height: 200px;
-    background-color: navy;
+    padding-top: 30px;
+    height: 300px;
+    background-color: #464646;
+    text-align: center;
+}
+#sharePrice > p {
+    margin-top: 18px;
+    color: white;
+}
+#sharePrice > h2 {
+    font-size: 36px;
+    color: #06fd00;
+    margin-bottom: 120px;
+}
+#sharePrice > a {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: white;
+    background-color: #a45dc1;
+    display: box;
+    padding: 5px;
 }
 
+#previousWork {
+    margin-bottom: 20px;
+}
 #previousWork .caption {
     width: 100%;
     text-align: center;
     font-size: 24px;
     color: #099fd9;
+}
+
+
+#bigFooter {
+    height: 200px;
+    margin-bottom: 20px;
+}
+#bigFooter > div {
+    padding: 10px;
+    height: 100%;
+}
+#bigFooter > div > h2 {
+    color: #099fd9;
+    font-size: 24px;
+}
+#bigFooter > div > p > a {
+    color: #a65bc0;
+    font-size: 24px;
+}
+#bigFooter > div > p {
+    color: #a65bc0;
+    font-size: 20px;
+}
+
+
+#smallFooter {
+    height: 40px;
+    background-color: black;
+}
+#smallFooter > #right, #left {
+    line-height: 40px;
+    height: 40px;
+}
+#smallFooter > #right {
+    text-align: right;
+}
+#smallFooter > #left {
+    text-align: left;
+}
+#smallFooter > #left > a > img {
+    margin-left: 2px;
+    width: 38px;
+    height: 38px;
+}
+#smallFooter a {
+    color: white;
+    text-decoration: none;
 }
