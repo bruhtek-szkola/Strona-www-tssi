@@ -53,6 +53,9 @@ body {
     margin: auto;
     text-decoration: none;
 }
+.nav-item a:hover {
+    text-decoration: underline;
+}
 .center-vh {
     display: flex;
     justify-content: center;
@@ -112,7 +115,6 @@ body {
     color: #099fd9;
 }
 
-
 #bigFooter {
     height: 200px;
     margin-bottom: 20px;
@@ -157,4 +159,53 @@ body {
 #smallFooter a {
     color: white;
     text-decoration: none;
+}
+#smallFooter a:hover {
+    text-decoration: underline;
+}
+
+#contact {
+    text-align: center;
+    height: 700px;
+}
+#contact > h1 {
+    color: #099fd9;
+    margin-bottom: 20px;
+}
+#contact > #right {
+    height: 80%;
+    position: relative;
+}
+#contact > #right > div {
+    position: absolute;               
+    top: 50%;                         
+    transform: translate(0, -50%);  
+    width: 100%;
+    font-size: 28px;
+    color: white;
+}
+#contact > #left {
+    color: white;
+}
+#contact > #right > div > p {
+    margin-bottom: 20px;
+}
+#contact > #left > form > label {
+    display: block;
+}
+#contact > #left > form > input {
+    width: 260px;
+    color: black;
+}
+#contact > #left > form > textarea {
+    min-height: 100px;
+    max-height: 280px;
+    resize: vertical;
+    width: 250px;
+    line-height: 18px;
+    color: black;
+    height: 120px;
+}
+#contact > #left > form > input[type=submit] {
+    margin-top: 20px;
 }
